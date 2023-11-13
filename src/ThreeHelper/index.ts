@@ -1,4 +1,3 @@
-import * as THREE from "three"
 // @ts-ignore 引入threejs渲染gaussian-splatting的第三方库
 import * as GaussianSplats3D from "../../public/libs/gaussian-splatting/gaussian-splats-3d.module.min.js"
 import { Jhree } from "@even_jie/jhree"

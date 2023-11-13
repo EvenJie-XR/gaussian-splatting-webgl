@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../pages/Home.vue"
 import YiZi from "../pages/YiZi.vue"
 import Garden from "../pages/Garden.vue"
@@ -10,7 +10,7 @@ import DiYiDiErPai from "../pages/DiYiDiErPai.vue"
 import LouDao from "../pages/LouDao.vue"
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             path: '/',
