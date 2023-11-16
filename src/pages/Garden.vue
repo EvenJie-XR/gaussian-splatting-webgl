@@ -10,7 +10,7 @@ import { ThreeHelper } from "../ThreeHelper/index"
 const threeContainer = ref();
 onMounted(() => {
     const threeHelper = new ThreeHelper(threeContainer.value);
-    threeHelper.loadGaussianSplattingFile(import.meta.env.BASE_URL + 'datas/splat/garden_high.splat');
+    threeHelper.loadGaussianSplattingFile('datas/splat/garden_high.splat');
     threeHelper.jhree.helperManager.enableStatus(true, threeContainer.value);
     threeHelper.jhree.controlsManager.switchTrackballControls();
     onBeforeUnmount(() => {

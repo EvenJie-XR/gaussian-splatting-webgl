@@ -25,7 +25,7 @@ const handleClickVideoBtn = () => {
 }
 onMounted(() => {
     const threeHelper = new ThreeHelper(threeContainer.value);
-    threeHelper.loadGaussianSplattingFile(import.meta.env.BASE_URL + 'datas/splat/shubiao-2fps.splat');
+    threeHelper.loadGaussianSplattingFile('datas/splat/shubiao-2fps.splat');
     threeHelper.jhree.helperManager.enableStatus(true, threeContainer.value);
     threeHelper.jhree.controlsManager.switchTrackballControls();
     onBeforeUnmount(() => {
