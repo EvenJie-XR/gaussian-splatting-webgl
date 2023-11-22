@@ -8,6 +8,8 @@ import HuaTuan from "../pages/HuaTuan.vue"
 import ShuBiao from "../pages/ShuBiao.vue"
 import DiYiDiErPai from "../pages/DiYiDiErPai.vue"
 import LouDao from "../pages/LouDao.vue"
+import LZLX from "../pages/LZLX.vue"
+import Test from "../pages/Test.vue"
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -47,6 +49,14 @@ const router = createRouter({
         {
             path: '/loudao',
             component: LouDao
+        },
+        {
+            path: '/lzlx',
+            component: LZLX
+        },
+        {
+            path: '/test',
+            component: Test
         }
     ]
 })

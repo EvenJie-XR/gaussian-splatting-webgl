@@ -22,6 +22,7 @@ import huatuanImg from "../assets/img/splat-preview/huatuan.png"
 import shubiaoImg from "../assets/img/splat-preview/shubiao.png"
 import diyidierpaiImg from "../assets/img/splat-preview/diyidierpai.png"
 import loudaoImg from "../assets/img/splat-preview/loudao.png"
+import lzlxImg from "../assets/img/splat-preview/lzlx.png"
 
 const exampleList = ref([
     {
@@ -86,6 +87,14 @@ const exampleList = ref([
         description: '2fps裁切视频,详细多角度的拍摄较暗的楼道',
         clickCallback: () => {
             router.push("/loudao");
+        }
+    },
+    {
+        previewImgPath: lzlxImg,
+        title: '高交会量子力学学院模型',
+        description: '深圳报业老师提供的量子力学学院模型视频',
+        clickCallback: () => {
+            router.push("/lzlx");
         }
     }
 ])

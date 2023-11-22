@@ -17,7 +17,7 @@ export class ThreeHelper {
             'initialCameraLookAt': [1,0,0],
             'ignoreDevicePixelRatio': false
         });
-        console.log(this.gaussianViewer);
+        console.log(this.gaussianViewer, this.jhree.scene);
     }
     loadGaussianSplattingFile(filepath: String) {
         this.gaussianViewer.loadFile(filepath, {
